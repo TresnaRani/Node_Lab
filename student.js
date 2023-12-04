@@ -8,6 +8,12 @@ const getID = () =>{
 
 const cgpa =3.57;
 
-exports.getName =getName;
-exports.getID =getID;
-exports.Results=cgpa;
+//exports.getName =getName;
+//exports.getID =getID;
+//exports.Results=cgpa;
+
+module.exports= {
+    getName,
+    getID,
+    cgpa
+}
